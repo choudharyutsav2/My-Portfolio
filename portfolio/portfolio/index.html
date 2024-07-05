@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav id="desktop-nav" >
+        <div class="logo">Utsav Kumar Choudhary </div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    
+                </ul>
+            </div> 
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Utsav Kumar Choudhary</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon " onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic-1.png" alt="Utsav Kumar Choudhary profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Utsav Kumar Choudhary</h1>
+            <p class="section__text__p2"><span class="Yo"></span></p>
+            <div class="btn-container">
+                <button 
+                class="btn btn-color-2"
+                onclick="window.open('./assets/UtsavKChoudhary1.pdf')">
+              Download CV</button>
+              <button 
+              class="btn btn-color-1"
+              onclick="location.href='./#contact'">
+              Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" 
+                alt="My LinkedIn profie"
+                class="icon"
+                onclick="location.href='https://www.linkedin.com/in/utsav-kumar-choudhary-4bb755199/'"
+                />
+                <img src="./assets/github.png" 
+                alt="My Github profie"
+                class="icon"
+                onclick="location.href='https://github.com/choudharyutsav2/'"
+                />
+                
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">Get To Know More</h1>
+        <div class="section-container">
+            <div class="section__pic-container" data-aos="slide-right">
+                <img src="./assets/about-pic-1.jpg"
+                 alt="Profile Picture"
+                 class="about-pic"
+                 />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container" data-aos="flip-up">
+                        <img src="./assets/experience.png"
+                         alt="Experience icon"
+                         class="icon"
+                         />
+                         <h3>Experience</h3>
+                         <p>Android Developer<br>Java,Python,DBMS</p>
+                    </div>
+                    <div class="details-container" data-aos="flip-down">
+                        <img src="./assets/education.png"
+                        alt="Education icon"
+                        class="icon"
+                        />
+                        <h3>Education</h3>
+                        <p>10th: 71.0%  <br>12th: 75.5% <br> Currently Pursuing B.tech At ITER </p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p class="introduction" data-aos="slide-left">
+                        Aspiring Computer Science Engineering student with a strong foundation in Android development and
+                        brushing up on my knowledge of data structures and algorithm. I am eager to explore and learn new
+                        technologies and leverage academic achievements, skills, and project experiences to contribute to the field.
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <img src="./assets/arrow.png"
+         alt="Arrow icon" 
+         class="icon arrow"
+        onclick="location.href='./#experience' "
+        >
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Languages</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="Exprience icon"
+                             class="icon">
+                             <div>
+                                <h3>DART</h3>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="Exprience.icon"
+                             class="icon">
+                             <div>
+                                <h3>Python</h3>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="Exprience.icon"
+                             class="icon">
+                             <div>
+                                <h3>HTML/CSS</h3>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="Exprience.icon"
+                             class="icon">
+                             <div>
+                                <h3>Dart</h3>
+                             </div>
+                        </article>
+                        
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Relevant Coursework</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="Exprience.icon"
+                             class="icon">
+                             <div>
+                                <h3>Data Structures</h3>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="Exprience.icon"
+                             class="icon">
+                             <div>
+                                <h3>DBMS</h3>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="Exprience.icon"
+                             class="icon">
+                             <div>
+                                <h3>Operating Systems</h3>
+\                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="Exprience.icon"
+                             class="icon">
+                             <div>
+                                <h3>Object Oriented Programming</h3>
+\                             </div>
+                        </article>
+                        
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Developer Tools</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="Exprience icon"
+                             class="icon">
+                             <div>
+                                <h3>Flutter Android Framework</h3>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="Exprience.icon"
+                             class="icon">
+                             <div>
+                                <h3>Android Studio</h3>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="Exprience.icon"
+                             class="icon">
+                             <div>
+                                <h3>GitHub</h3>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="Exprience.icon"
+                             class="icon">
+                             <div>
+                                <h3>Eclipse</h3>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="Exprience.icon"
+                             class="icon">
+                             <div>
+                                <h3>VS Code</h3>
+                             </div>
+                        </article>
+                        
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Database</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="Exprience.icon"
+                             class="icon">
+                             <div>
+                                <h3>MySQL</h3>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="Exprience.icon"
+                             class="icon">
+                             <div>
+                                <h3>Firebase</h3>
+                             </div>
+                        </article>
+                    
+                    </div>
+                </div>
+            </div>
+       </div>
+       <img src="./assets/arrow.png"
+         alt="Arrow icon" 
+         class="icon arrow"
+        onclick="location.href='./#projects' "
+        >
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-1.jpg" 
+                         alt="Project 1"
+                         class="project-img"
+                         >
+                </div>
+                <h2 class="experience-sub-title project-title"><br><br>Chat Circle <br></h2>
+                <div class="btn-container">
+                    <button 
+                       class="btn btn-color-2 project-btn"
+                       onclick="location.href='https://github.com/choudharyutsav2/Chat-Circle'"
+                       >
+                       Github
+                    </button>
+                    
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-2.jpg" 
+                         alt="Project 2"
+                         class="project-img"
+                         >
+                </div>
+                <h2 class="experience-sub-title project-title">Quiz-App</h2>
+                <div class="btn-container">
+                    <button 
+                       class="btn btn-color-2 project-btn"
+                       onclick="location.href='https://github.com/choudharyutsav2/QuizApp'"
+                       >
+                       Github
+                    </button>
+                    
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-3.jpg" 
+                         alt="Project 3"
+                         class="project-img"
+                         >
+                </div>
+                <h2 class="experience-sub-title project-title">Audio Streaming</h2>
+                <div class="btn-container">
+                    <button 
+                       class="btn btn-color-2 project-btn"
+                       onclick="location.href='https://github.com/choudharyutsav2/Real-time-VoWi-FiAudio-Streaming'"
+                       >
+                       Github
+                    </button>
+                    
+                </div>
+            </div>
+        </div>
+       </div>
+        <img src="./assets/arrow.png"
+        alt="Arrow icon" 
+        class="icon arrow"
+       onclick="location.href='./#contact' "
+       >
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png"
+                 alt="Email icon"
+                 class="icon contact-icon"
+                 >
+                 <p><a href="mailto:choudharyutsav2@gmail.com">choudharyutsav2@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png"
+                 alt="LinkedIn icon"
+                 class="icon contact-icon"
+                 >
+                 <p><a href="https://www.linkedin.com/in/utsav-kumar-choudhary-4bb755199/">LinkedIn</a></p>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>  
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Utsav Kumar Choudhary. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
+</body>
+</html>
