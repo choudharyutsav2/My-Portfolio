@@ -29,5 +29,5 @@ This application should now be running on `localhost`. If you want to Fork repos
 
 
 ## 🔗 Let's Connect
-[![linkedin]((https://www.linkedin.com/in/utsav-kumar-choudhary-4bb755199/))
-[![Instagram]((https://twitter.com/chetannada](https://www.instagram.com/choudharyutsav2/))
+(https://www.linkedin.com/in/utsav-kumar-choudhary-4bb755199/)
+(https://www.instagram.com/choudharyutsav2/)
